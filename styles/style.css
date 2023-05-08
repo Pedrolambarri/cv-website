@@ -19,7 +19,7 @@ li {
 }
 
 header {
-    background-image: url(/images/James-Webb-Telescope.png);
+    background-image: url(../images/James-Webb-Telescope.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
