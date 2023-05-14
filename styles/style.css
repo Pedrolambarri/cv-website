@@ -118,19 +118,13 @@ header {
 }
 
 
-.work-experience {
+.work-experience,
+.personal-projects {
 
     padding: 100px;
     background-color: black;
     width: 100%;
 
-}
-
-.personal-proyects {
-    background-color: black;
-    padding: 100px;
-    width: 100%;
-    text-align: justify;
 }
 
 span {
@@ -216,7 +210,7 @@ span {
 }
 
 
-.poryect-containter {
+.project-containter {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 300px 1fr;
@@ -342,46 +336,48 @@ footer p {
 
     }
 
+    .item2,
+    .item3,
+    .item4 {
+        grid-column: 1 / 5;
+
+
+    }
+
+    .a,
+    .b,
+    .c,
+    .d {
+        grid-column: 1 /4;
+
+    }
+
 }
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 310px) {
     .my-title {
         padding-top: 300px;
         padding-right: 200px;
     }
 
     .img-profile {
-        width: 150px;
+        width: 100px;
         padding-right: 200px;
         padding-left: 50px;
     }
 
-    .personal-proyects {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-right: 200px;
 
-    }
 
-    h1 {
-        font-size: 20px;
-    }
-
-    .summary-p {
-        font-size: 15px;
-    }
-
-    p {
-        font-size: 15px;
-    }
-
-    span {
-        font-size: 10px;
-    }
 }
 
 @media (max-width: 768px) {
+
+    .personal-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     .item1 {
         grid-column: 1 / 5;
