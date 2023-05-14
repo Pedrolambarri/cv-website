@@ -356,9 +356,9 @@ footer p {
 
 }
 
-@media only screen and (max-width: 310px) {
+@media only screen and (max-width: 300px) {
     .my-title {
-        padding-top: 300px;
+        padding-top: 150px;
         padding-right: 200px;
     }
 
@@ -373,6 +373,11 @@ footer p {
 }
 
 @media (max-width: 768px) {
+
+    .my-title {
+        padding-top: 260px;
+
+    }
 
     .professional-summary {
         padding: 20px;
