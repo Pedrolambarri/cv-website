@@ -24,8 +24,7 @@ li {
 }
 
 header {
-    background-image: url(../images/James-Webb-Telescope.png);
-    background-repeat: no-repeat;
+    background-image: url(../images/James-Webb-Telescope.webp);
     background-size: cover;
     width: 100%;
     height: 50vh;
@@ -73,11 +72,11 @@ header {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    transition: all 0.5 ease;
 }
 
 .img-profile {
     width: 300px;
+    height: 300px;
     border: 3px solid #62CDFF;
     border-radius: 50%;
     margin-right: 200px;
@@ -129,7 +128,7 @@ header {
 .work-experience,
 .personal-projects {
 
-    padding: 100px;
+    padding: 20px;
     background-color: black;
     width: 100%;
 
@@ -207,6 +206,7 @@ span {
 
 .item4 img {
     width: 25px;
+    height: 25px;
 }
 
 .brands {
@@ -223,7 +223,7 @@ span {
     grid-gap: 30px;
     grid-template-columns: 300px 1fr;
     grid-template-rows: repeat(3, 1fr);
-
+    font-size: 12px;
 
 }
 
@@ -285,6 +285,10 @@ span {
     font-size: 30px;
 }
 
+.fa-regular {
+    margin-right: 20px;
+}
+
 .seed {
     width: 80px;
     height: 80px;
@@ -293,7 +297,7 @@ span {
 
 .piich-logo {
     width: 40px;
-
+    height: 40px;
 
 
 }
@@ -339,6 +343,7 @@ footer p {
 
     .img-profile {
         width: 200px;
+        height: 200px;
         margin: auto;
     }
 
@@ -354,7 +359,8 @@ footer p {
 
     .item2,
     .item3,
-    .item4 {
+    .item4,
+    .item5 {
         grid-column: 1 / 5;
 
 
